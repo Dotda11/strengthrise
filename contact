@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transform Your Life: Courses</title>
+    <title>Transform Your Life</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <nav>
@@ -18,11 +17,8 @@
         </ul>
     </nav>
     <br>
-    <h1>Transform Your Life: Courses</h1>
-    <a href="breakfreefrombadhabits.html" class="button">Break free from your bad habits</a>
-    <br><br>
-    <a href="positivehabits.html" class="button">Get positive habits</a>
-    <br><br>
-    <a href="onlineprofitacademy.html" class="button">Learn to make money online</a>
+    <h1>Transform Your Life: Contact</h1>
+    <h2>Email:</h2>
+    <p>Not avaible atm</p>
 </body>
 </html>

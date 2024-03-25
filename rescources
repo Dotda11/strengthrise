@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Life</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="rescources.html">Rescources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1>Transform Your Life: Rescources</h1>
+    <h2>Socials</h2>
+    <a href="https://www.youtube.com/@_transformyourlife">YouTube</a>
+    <br>
+    <a href="https://www.tiktok.com/@selfimprovementc3ntral">TikTok</a>
+    <br>
+    <a href="https://www.instagram.com/transformyourlife4">Instagram</a>
+    <br>
+    <a href="https://discord.gg/tKCRqBvzWD">Discord Server</a>
+    <h2>Self Improvement YouTubers I Would Recommend</h2>
+    <a href="https://www.youtube.com/@Hamza97">Hamza</a>
+    <br>
+    <a href="https://www.youtube.com/@JakPiggott">Jak Piggott</a>
+</body>
+</html>
