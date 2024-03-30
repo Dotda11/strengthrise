@@ -3,6 +3,7 @@ body {
     color: #333;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -89,19 +90,6 @@ li a {
 
 li a:hover {
     background-color: #E1D9D1;
-}
-
-.dropdown {
-    display: none; 
-    position: absolute;
-    background-color: white;
-    width: 150px; 
-    top: 100%; 
-    left: 0; 
-}
-
-li:hover .dropdown {
-    display: block; 
 }
 
 a {
