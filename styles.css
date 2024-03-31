@@ -4,6 +4,20 @@ body {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -32,8 +46,9 @@ body {
     cursor: pointer;
     text-decoration: none;
     width: 150px;
-    transition: background-color 0.3s ease;
 }
+
+
     
 .button:hover {
     background-color: #45a049;
@@ -41,8 +56,15 @@ body {
 
 
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
 }
 
 .section {
@@ -63,29 +85,26 @@ body {
 
 
 nav {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    left: 0
+    text-align: left;
 }
 
-ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-li {
-    float: left;
-    position: relative; 
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 li a {
     display: block;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 li a:hover {
