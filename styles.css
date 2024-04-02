@@ -83,6 +83,14 @@ body {
     gap: 20px;
 }
 
+.center-cropped {
+    width: 100%;
+    min-height: 30em;
+    max-height: 100em auto;
+    height: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
 
 nav {
     text-align: left;
