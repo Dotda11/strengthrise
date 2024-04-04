@@ -9,6 +9,18 @@ body {
     transform: translateY(20px);
 }
 
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
