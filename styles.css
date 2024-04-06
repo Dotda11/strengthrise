@@ -21,6 +21,7 @@ h2 {
 
 p {
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 @keyframes fadeInUp {
