@@ -1,27 +1,19 @@
 body {
-    background-color: #f8f8f8;
+    background-image: url('https://media.discordapp.net/attachments/1227106133118943282/1227106134029238334/dark-black-slate-background-or-texture-picture-id610557718.png');
     color: #333;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
     animation: fadeInUp 1s ease forwards;
     opacity: 0;
     transform: translateY(20px);
 }
 
-h1 {
-    font-size: 36px;
+h1, h2 {
     font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-    font-size: 24px;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 p {
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @keyframes fadeInUp {
