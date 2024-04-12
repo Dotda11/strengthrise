@@ -6,14 +6,6 @@ body {
     transform: translateY(20px);
 }
 
-h1 {
-    font-size: 25px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
 @keyframes fadeInUp {
     from {
         opacity: 0;
