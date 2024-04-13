@@ -102,6 +102,16 @@ h1{
     opacity: 1;
     transform: translateY(-3vw)
 }
+.details{
+    font-size: 1.2vw;
+    font-weight: 300;
+    opacity: 0.7;
+    transform: translateY(-2vw);
+}
+.btns{
+    margin-top: 2vw;
+    text-align: center;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
