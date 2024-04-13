@@ -7,10 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    color: #fff;
-}
-
 .container{
     height: 100vh;
     transform-style: preserve-3d;
