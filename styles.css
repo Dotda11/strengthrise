@@ -6,7 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    height: 100vh;
     background: #36454f;
     transform-style: preserve-3d;
     overflow: hidden;
@@ -21,6 +20,9 @@
     font-size: 1.7em;
     cursor: pointer;
     transition: 0.4s ease-in;
+}
+.actionbtn.active{
+    transform: rotate;
 }
 .navbar{
     position: absolute;
