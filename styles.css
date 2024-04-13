@@ -36,8 +36,7 @@
     transform: translateX(250px)
 }
 .navbar.active li{
-    list-style: none;
-    transform: translateX(250px)
+    transform: translateX(0px)
 }
 .navbar li a{
     display: block;
