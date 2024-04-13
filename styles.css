@@ -35,6 +35,10 @@
     list-style: none;
     transform: translateX(250px)
 }
+.navbar.active li{
+    list-style: none;
+    transform: translateX(250px)
+}
 .navbar li a{
     display: block;
     color: #fff;
