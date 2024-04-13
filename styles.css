@@ -121,6 +121,10 @@ h1{
     border: 2px solid #fff;
     margin: 0 1vw;
 }
+.btns a:hover{
+    background: #fff;
+    color: #222;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
