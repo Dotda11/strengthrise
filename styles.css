@@ -30,3 +30,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    display: block;
+}
