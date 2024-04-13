@@ -5,9 +5,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background: #36454f;
-}
 .container{
     background: #36454f;
     transform-style: preserve-3d;
@@ -73,6 +70,5 @@ body{
     width: 100%;
     background-position: center;
     background-size: cover;
-    background: url()
-})
+    background-image: url(I3wz8sksSV6qyalFr__CDw.jpg)
 }
