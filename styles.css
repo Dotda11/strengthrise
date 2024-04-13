@@ -72,3 +72,15 @@
     background-size: cover;
     background-image: url(I3wz8sksSV6qyalFr__CDw.jpg)
 }
+.bgimg::before{
+    position: absolute;
+    content: '';
+    height: inherit;
+    width: inherit;
+    backdrop-filter: blur(8px) brightness(40%) saturate(200%);
+}
+.textdata{
+    position: relative;
+    max-width: 70%;
+    color: #fff;
+}
