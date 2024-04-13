@@ -64,6 +64,11 @@
     justify-contnent: center;
     transition: 0.3s 0.4s ease-out;
 }
+.banner.active{
+    transform-origin: left;
+    transform: rotateY(30deg);
+    transition: 0.3s 0.4s ease-out;
+}
 .bgimg{
     position: absolute;
     height: 100vh;
