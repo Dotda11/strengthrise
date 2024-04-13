@@ -112,6 +112,15 @@ h1{
     margin-top: 2vw;
     text-align: center;
 }
+.btns a{
+    background: transparent;
+    color: #fff;
+    font-size: 1.2vw;
+    text-decoration: none;
+    padding: 0.8vw 1.5vw;
+    border: 2px solid #fff;
+    margin: 0 1vw;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
