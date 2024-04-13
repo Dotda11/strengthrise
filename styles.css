@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     height: 100vh;
     background: #36454f;
     transform-style: preserve-3d;
     perspective: 1500;
     overflow: hidden;
 }
-.actionbtn{
+
+.actionbtn {
     color: #fff;
     position: fixed;
     top: 0;
@@ -23,25 +26,30 @@
     cursor: pointer;
     transition: 0.4s ease-in;
 }
-.actionbtn.active{
+
+.actionbtn.active {
     transform: rotate(720deg);
 }
-.navbar{
+
+.navbar {
     position: absolute;
     right: 0;
     width: 250px;
     top: 50%;
     transform: translateY(-50%);
 }
-.navbar li{
+
+.navbar li {
     list-style: none;
     transform: translateX(250px)
 }
-.navbar.active li{
+
+.navbar.active li {
     transition: 0.3s calc(var(--delay) * 0.4s) ease-out;
     transform: translateX(0px)
 }
-.navbar li a{
+
+.navbar li a {
     display: block;
     color: #fff;
     font-size: 2em;
@@ -53,21 +61,24 @@
     margin: 60px 0;
     transition: 0.2s;
 }
-.navbar li:hover a{
+
+.navbar li:hover a {
     color: #12ff88;
     letter-spacing: 0px;
 }
-.banner{
+
+.banner {
     position: relative;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-contnent: center;
+    justify-content: center; /* Corrected typo here */
     transition: 0.3s 0.4s ease-out;
 }
+
 .banner::before,
-.banner::after{
+.banner::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -81,25 +92,30 @@
     transform: rotate(-0.5deg);
     transition: 0.5s 0.2s ease:
 }
-.banner::after{
+
+.banner::after {
     transform: rotate(-1deg);
 }
-.banner.active::before{
+
+.banner.active::before {
     top: -50px;
     left: -120px;
     transition: 0.5s 0.6s ease;
 }
-.banner.active::after{
+
+.banner.active::after {
     top: -100px;
     left: -240px;
     transition: 0.5s 0.6s ease;
 }
-.banner.active{
+
+.banner.active {
     transform-origin: left;
     transform: rotateY(30deg);
     transition: 0.3s 0.4s ease-out;
 }
-.bgimg{
+
+.bgimg {
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -107,66 +123,77 @@
     background-size: cover;
     background-image: url(I3wz8sksSV6qyalFr__CDw.jpg)
 }
-.bgimg::before{
+
+.bgimg::before {
     position: absolute;
     content: '';
     height: inherit;
     width: inherit;
     backdrop-filter: blur(8px) brightness(40%) saturate(200%);
 }
-.textdata{
+
+.banner-content {
     position: relative;
-    max-width: 70%;
+    max-width: 90%; /* Adjusted width for responsiveness */
     color: #fff;
 }
-h2{
-    font-size: 3vw;
+
+h2 {
+    font-size: 5vw; /* Adjusted font size for responsiveness */
     font-weight: 300;
     letter-spacing: 7px;
 }
-h1{
-    font-size: 10vw;
+
+h1 {
+    font-size: 15vw; /* Adjusted font size for responsiveness */
     font-weight: 900;
     letter-spacing: 4px;
     text-align: center;
 }
-.label{
+
+.label {
     text-align: center;
-    text-size: 2.5vw;
+    font-size: 3vw; /* Adjusted font size for responsiveness */
     letter-spacing: 2px;
     opacity: 1;
     transform: translateY(-3vw)
 }
-.details{
-    font-size: 1.2vw;
+
+.details {
+    font-size: 1.5vw; /* Adjusted font size for responsiveness */
     font-weight: 300;
     opacity: 0.7;
     transform: translateY(-2vw);
 }
-.btns{
+
+.btns {
     margin-top: 2vw;
     text-align: center;
 }
-.btns a{
+
+.btns a {
     background: transparent;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.5vw; /* Adjusted font size for responsiveness */
     text-decoration: none;
-    padding: 0.8vw 1.5vw;
+    padding: 1vw 2vw; /* Adjusted padding for responsiveness */
     border: 2px solid #fff;
     margin: 0 1vw;
 }
-.btns a:hover{
+
+.btns a:hover {
     background: #fff;
     color: #222;
 }
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
+
+    .navbar li {
+        transform: translateX(0px);
     }
 }
