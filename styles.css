@@ -22,7 +22,7 @@
     transition: 0.4s ease-in;
 }
 .actionbtn.active{
-    transform: rotate;
+    transform: rotate(720deg);
 }
 .navbar{
     position: absolute;
@@ -33,6 +33,7 @@
 }
 .navbar li{
     list-style: none;
+    transform: translateX(250px)
 }
 .navbar li a{
     display: block;
