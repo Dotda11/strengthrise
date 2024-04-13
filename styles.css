@@ -95,3 +95,10 @@ h1{
     letter-spacing: 4px;
     text-align: center;
 }
+.label{
+    text-align: center;
+    text-size: 2.5vw;
+    letter-spacing: 2px;
+    opacity: 1;
+    transform: translateY(-3vw)
+}
