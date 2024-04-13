@@ -65,7 +65,7 @@ p{
     font-weight: 100;
     line-height: 25px;
 }
-button {
+a.button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -80,10 +80,10 @@ button {
     overflow: hidden;
     text-decoration: none; 
 }
-button:hover span{
+a.button:hover span{
     width: 100%;
 }
-button:hover{
+a.button:hover{
     border: none;
 }
 span{
