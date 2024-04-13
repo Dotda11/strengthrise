@@ -66,6 +66,34 @@
     justify-contnent: center;
     transition: 0.3s 0.4s ease-out;
 }
+.banner::before,
+.banner::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: -1;
+    transform-origin: right;
+    transform: rotate(-0.5deg);
+    transition: 0.5s 0.2s ease:
+}
+.banner::after{
+    transform: rotate(-1deg);
+}
+.banner.active::before{
+    top: -50px;
+    left: -120px;
+    transition: 0.5s 0.6s ease;
+}
+.banner.active::after{
+    top: -100px;
+    left: -240px;
+    transition: 0.5s 0.6s ease;
+}
 .banner.active{
     transform-origin: left;
     transform: rotateY(30deg);
