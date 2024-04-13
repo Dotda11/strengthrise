@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+body{
     color: #fff;
 }
 
-.container {
+.container{
     height: 100vh;
     background: #36454f;
     transform-style: preserve-3d;
@@ -19,23 +19,22 @@ body {
     overflow: hidden;
 }
 
-.actionbtn {
-    color: #fff;
+.actionbtn{
     position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 9999;
-    margin: 2em;
-    font-size: 1.7em;
+    top: 20px;
+    right: 20px;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: 0.4s ease-in;
+    z-index: 9999;
 }
 
-.actionbtn.active {
+.actionbtn.active{
     transform: rotate(720deg);
 }
 
-.navbar {
+.navbar{
     position: absolute;
     right: 0;
     width: 250px;
@@ -43,17 +42,17 @@ body {
     transform: translateY(-50%);
 }
 
-.navbar li {
+.navbar li{
     list-style: none;
     transform: translateX(250px)
 }
 
-.navbar.active li {
+.navbar.active li{
     transition: 0.3s calc(var(--delay) * 0.4s) ease-out;
     transform: translateX(0px)
 }
 
-.navbar li a {
+.navbar li a{
     display: block;
     color: #fff;
     font-size: 2em;
@@ -66,12 +65,12 @@ body {
     transition: 0.2s;
 }
 
-.navbar li:hover a {
+.navbar li:hover a{
     color: #12ff88;
     letter-spacing: 0px;
 }
 
-.banner {
+.banner{
     position: relative;
     height: 100%;
     width: 100%;
@@ -82,7 +81,7 @@ body {
 }
 
 .banner::before,
-.banner::after {
+.banner::after{
     position: absolute;
     content: '';
     width: 100%;
@@ -97,29 +96,29 @@ body {
     transition: 0.5s 0.2s ease:
 }
 
-.banner::after {
+.banner::after{
     transform: rotate(-1deg);
 }
 
-.banner.active::before {
+.banner.active::before{
     top: -50px;
     left: -120px;
     transition: 0.5s 0.6s ease;
 }
 
-.banner.active::after {
+.banner.active::after{
     top: -100px;
     left: -240px;
     transition: 0.5s 0.6s ease;
 }
 
-.banner.active {
+.banner.active{
     transform-origin: left;
     transform: rotateY(30deg);
     transition: 0.3s 0.4s ease-out;
 }
 
-.bgimg {
+.bgimg{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -128,7 +127,7 @@ body {
     background-image: url(I3wz8sksSV6qyalFr__CDw.jpg)
 }
 
-.bgimg::before {
+.bgimg::before{
     position: absolute;
     content: '';
     height: inherit;
@@ -136,26 +135,26 @@ body {
     backdrop-filter: blur(8px) brightness(40%) saturate(200%);
 }
 
-.banner-content {
+.banner-content{
     position: relative;
     max-width: 90%; 
     color: #fff;
 }
 
-h2 {
+h2{
     font-size: 5vw; 
     font-weight: 300;
     letter-spacing: 7px;
 }
 
-h1 {
+h1{
     font-size: 15vw; 
     font-weight: 900;
     letter-spacing: 4px;
     text-align: center;
 }
 
-.label {
+.label{
     text-align: center;
     font-size: 3vw; 
     letter-spacing: 2px;
@@ -163,19 +162,19 @@ h1 {
     transform: translateY(-3vw)
 }
 
-.details {
+.details{
     font-size: 1.5vw; 
     font-weight: 300;
     opacity: 0.7;
     transform: translateY(-2vw);
 }
 
-.btns {
+.btns{
     margin-top: 2vw;
     text-align: center;
 }
 
-.btns a {
+.btns a{
     background: transparent;
     color: #fff;
     font-size: 1.5vw; 
@@ -185,19 +184,19 @@ h1 {
     margin: 0 1vw;
 }
 
-.btns a:hover {
+.btns a:hover{
     background: #fff;
     color: #222;
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar {
+    .navbar{
         width: 100%;
         text-align: center;
         padding-top: 20px;
     }
 
-    .navbar li {
+    .navbar li{
         transform: translateX(0px);
     }
 }
