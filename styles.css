@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #36454f;
+}
 .container{
     background: #36454f;
     transform-style: preserve-3d;
