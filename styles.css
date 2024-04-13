@@ -78,7 +78,8 @@ a.button {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    text-decoration: none; 
+    text-decoration: none;
+    overflow: hidden;
 }
 a.button:hover span{
     width: 100%;
