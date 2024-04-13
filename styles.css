@@ -6,8 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
+    height: 100vh;
     background: #36454f;
     transform-style: preserve-3d;
+    perspective: 1500;
     overflow: hidden;
 }
 .actionbtn{
