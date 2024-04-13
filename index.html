@@ -22,7 +22,19 @@
             <li style="--delay: 4"><a href="privacy policy.html">privacy policy</a></li>
             <li style="--delay: 5"><a href="terms of service.html">terms of service</a></li>
         </ul>
-        
+
+        <script>
+            const actionbtn = document.querySelector('.actionbtn');
+            const navbar = document.querySelector('.navbar');
+            const banner = document.querySelector('.banner');
+            
+            actionbtn.addEventListener('click', () => {
+                actionbtn.classList.toggle('active');
+                navbar.classList.toggle('active');
+                banner.classList.toggle('active');
+            });
+
+        </script>
         <div class="banner">
             <div class="bgimg"></div>
             <div class="banner-content">
