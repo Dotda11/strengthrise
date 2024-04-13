@@ -44,12 +44,12 @@ body{
 
 .navbar li{
     list-style: none;
-    transform: translateX(250px)
+    transform: translateX(250px);
+    transition: transform 0.3s ease;
 }
 
 .navbar.active li{
-    transition: 0.3s calc(var(--delay) * 0.4s) ease-out;
-    transform: translateX(0px)
+    transform: translateX(0px);
 }
 
 .navbar li a{
@@ -77,7 +77,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
-    transition: 0.3s 0.4s ease-out;
+    transition: 0.3s ease;
+    transform-origin: center left;
+    transform-style: preserve-3d;
 }
 
 .banner::before,
@@ -93,7 +95,7 @@ body{
     z-index: -1;
     transform-origin: right;
     transform: rotate(-0.5deg);
-    transition: 0.5s 0.2s ease:
+    transition: 0.5s ease;
 }
 
 .banner::after{
@@ -103,19 +105,18 @@ body{
 .banner.active::before{
     top: -50px;
     left: -120px;
-    transition: 0.5s 0.6s ease;
+    transition: 0.5s ease;
 }
 
 .banner.active::after{
     top: -100px;
     left: -240px;
-    transition: 0.5s 0.6s ease;
+    transition: 0.5s ease;
 }
 
 .banner.active{
-    transform-origin: left;
-    transform: rotateY(30deg);
-    transition: 0.3s 0.4s ease-out;
+    transform: rotateY(20deg);
+    transition: 0.3s ease;
 }
 
 .bgimg{
@@ -124,7 +125,7 @@ body{
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url(I3wz8sksSV6qyalFr__CDw.jpg)
+    background-image: url(I3wz8sksSV6qyalFr__CDw.jpg);
 }
 
 .bgimg::before{
@@ -198,5 +199,25 @@ h1{
 
     .navbar li{
         transform: translateX(0px);
+    }
+
+    .banner-content{
+        max-width: 80%; 
+    }
+
+    h2{
+        font-size: 8vw; 
+    }
+
+    h1{
+        font-size: 20vw; 
+    }
+
+    .label{
+        font-size: 4vw; 
+    }
+
+    .details{
+        font-size: 2vw; 
     }
 }
