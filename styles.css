@@ -81,6 +81,9 @@ button{
 button:hover span{
     width: 100%;
 }
+button:hover{
+    border: none;
+}
 span{
     background: #009688;
     height: 100%;
