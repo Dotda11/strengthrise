@@ -61,7 +61,7 @@ body{
     transition: 0.5s;
 }
 .btn a:hover span{
-    width: 100%
+    width: 100%;
 }
 
 sideNav{
