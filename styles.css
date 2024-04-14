@@ -1,13 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Sans-serif;
 }
 .banner{
     background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(I3wz8sksSV6qyalFr__CDw.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
 }
 .navbar{
     width: 85%;
@@ -16,10 +21,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.logo{
-    width: 120px;
-    cursor: pointer;
 }
 .navbar ul li{
     list-style: none;
