@@ -15,6 +15,7 @@ body{
 
 .logo{
     width: 140px;
+    max-width: 100%; 
     position: absolute;
     top: 4%;
     left: 10%;
