@@ -90,7 +90,7 @@ nav ul li a{
     background: #009688;
     text-align: center;
     position: fixed;
-    right: 30px;
+    right: 50px;
     top: 20px;
     border-radius: 3px;
     z-index: 3;
@@ -98,5 +98,5 @@ nav ul li a{
 }
 #menuBtn img{
     width: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
