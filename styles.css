@@ -125,4 +125,17 @@ nav ul li a{
     margin: auto;
     color: #009688;
     font-weight: bold;
+    positive: relative;
+    z-index: 1;
+    display: inline-block
+}
+.about-us-text h1::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587,#fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
