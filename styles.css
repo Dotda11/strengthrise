@@ -45,6 +45,10 @@ body{
     border: .5px solid #fff;
     position: relative;
     z-index: 1;
+    transition: color 0.5s;
+}
+.btn a:hover{
+    color: #000;
 }
 .btn a span{
     width: 0;
