@@ -127,7 +127,7 @@ nav ul li a{
     font-weight: bold;
     positive: relative;
     z-index: 1;
-    display: inline-block
+    display: inline-block;
 }
 .about-us-text h1::after{
     content: '';
@@ -138,4 +138,6 @@ nav ul li a{
     top: 0;
     left: 0;
     z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
 }
