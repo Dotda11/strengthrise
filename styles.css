@@ -34,10 +34,11 @@ body{
 }
 .text p{
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .btn{
-    margin: 70px auto 0;
+    margin: 20px auto 0;
 }
 .btn a{
     width: 150px;
@@ -116,7 +117,7 @@ nav ul li a{
     }
 
     #about-us{
-        width: 100%;
+        padding: 50px 20px;
     }
     .about-us-text{
         text-align: center;
