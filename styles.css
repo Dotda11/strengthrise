@@ -63,3 +63,13 @@ body{
 .btn a:hover span{
     width: 100%
 }
+
+sideNav{
+    weight: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+}
