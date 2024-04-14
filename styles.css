@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(I3wz8sksSV6qyalFr__CDw.jpg);
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 
 .logo{
