@@ -64,7 +64,7 @@ body{
     width: 100%;
 }
 
-sideNav{
+.sideNav{
     weight: 250px;
     height: 100vh;
     position: fixed;
