@@ -12,6 +12,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding-bottom: 180px;
 }
 
 .logo{
@@ -115,7 +116,6 @@ nav ul li a{
 
 #about-us{
     width: 100%;
-    padding-top: 180px;
 }
 .about-us-text{
     text-align: center;
