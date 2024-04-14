@@ -26,6 +26,7 @@ body{
     text-align: center;
     color: #fff;
     padding-top: 180px;
+    padding-bottom: 90px;
 }
 .text h1{
     font-size: 130px;
@@ -115,11 +116,11 @@ nav ul li a{
 
 #about-us{
     width: 100%;
-    padding: 70px 0;
+    padding-bottom: 70px 0;
 }
 .about-us-text{
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 35px;
 }
 .about-us-text h1{
     margin: auto;
