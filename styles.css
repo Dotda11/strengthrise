@@ -119,7 +119,7 @@ nav ul li a{
     }
 
     #about-us{
-        padding: 50px 20px;
+        margin-top: 0;
     }
     .about-us-text{
         text-align: center;
@@ -129,7 +129,6 @@ nav ul li a{
         color: #009688;
         font-weight: bold;
         positive: relative;
-        z-index: 1;
         display: inline-block;
     }
 }
