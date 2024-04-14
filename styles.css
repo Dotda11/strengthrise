@@ -13,6 +13,7 @@ body{
     background-position: center;
     height: 100vh;
     min-height: 100vh;
+    position: relative; 
 }
 
 .logo{
@@ -68,14 +69,14 @@ body{
 }
 
 #sideNav{
-    weight: 250px;
+    width: 250px; 
     height: 100vh;
     position: fixed;
     right: -250px;
     top: 0;
     background: #009688;
     z-index: 2;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 nav ul li{
@@ -112,19 +113,20 @@ nav ul li a{
     .btn a{
         display: block;
         margin: 20px auto;
-}
+    }
 
-#about-us{
-    width: 100%;
-}
-.about-us-text{
-    text-align: center;
-}
-.about-us-text h1{
-    margin: auto;
-    color: #009688;
-    font-weight: bold;
-    positive: relative;
-    z-index: 1;
-    display: inline-block;
+    #about-us{
+        width: 100%;
+    }
+    .about-us-text{
+        text-align: center;
+    }
+    .about-us-text h1{
+        margin: auto;
+        color: #009688;
+        font-weight: bold;
+        positive: relative;
+        z-index: 1;
+        display: inline-block;
+    }
 }
