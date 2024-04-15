@@ -149,29 +149,29 @@ nav ul li a{
     text-align: center;
 }
 
-.goal-1{
+.goals{
     flex-basis: 50%;
 }
-.goal-1-img{
+.goals-img{
     flex-basis: 50%;
     margin: auto;
 }
-.goal-1-img img{
+.goals-img img{
     width: 70%;
     border-radius: 10px;
 }
-.goal-1 h3{
+.goals h2{
     text-align: left;
     margin-bottom: 10px;
     color: #009688;
     weight: bold;
 }
-.goal-1-desc{
+.goals-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
-.goal-1-icon .fa{
+.goals-icon .fa{
     width: 50px;
     height: 50px;
     font-size: 30px;
@@ -180,7 +180,7 @@ nav ul li a{
     color: #009688;
     border: 1px solid #009688;
 }
-.goal-1-text p{
+.goals-text p{
     padding: 0 20px;
     text-align: left;
 }
