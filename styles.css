@@ -22,7 +22,7 @@ body{
     max-width: 100%; 
     position: absolute;
     top: 10px;
-    left: 50%;
+    left: 10px;
     transform: translateX(-50%);
     z-index: 2;
 }
@@ -34,7 +34,6 @@ body{
     padding-bottom: 20px;
     position: absolute;
     top: 180px;
-    left: 10%;
     transform: translateX(-50%);
 }
 .text h1{
