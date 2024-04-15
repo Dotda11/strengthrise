@@ -186,3 +186,17 @@ nav ul li a{
     padding: 0 20px;
     text-align: left;
 }
+@media screen and (max-width: 770px){
+    .goals h2{
+        font-size: 35px;
+    }
+    .goals{
+        flex-basis: 100%;
+    }
+    .goals-img{
+        flex-basis: 100%;
+    }
+    .goals-img img{
+        width: 100%;
+    }
+}
