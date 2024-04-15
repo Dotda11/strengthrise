@@ -177,3 +177,7 @@ nav ul li a{
     margin-bottom: 20px;
     color: #fff;
 }
+.guide img{
+    width: 100%;
+    border-radius: 7px;
+}
