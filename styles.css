@@ -148,3 +148,7 @@ nav ul li a{
     align-items: center;
     text-align: center;
 }
+
+.goal-1{
+    flex-basis: 50%;
+}
