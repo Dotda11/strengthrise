@@ -33,7 +33,7 @@ body{
     padding-top: 20%;
     padding-bottom: 20px;
     position: absolute;
-    top: 180px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
 }
