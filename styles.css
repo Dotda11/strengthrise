@@ -164,6 +164,7 @@ nav ul li a{
     text-align: left;
     margin-bottom: 10px;
     color: #009688;
+    weight: bold;
 }
 .goal-1-desc{
     display: flex;
