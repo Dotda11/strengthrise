@@ -153,8 +153,10 @@ nav ul li a{
     flex-basis: 50%;
 }
 .goals-img{
-    flex-basis: 50%;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 .goals-img img{
     width: 70%;
