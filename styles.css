@@ -156,13 +156,13 @@ nav ul li a{
 /* Guides */
 
 
-#guides{
+.guides {
     width: 100%;
     padding: 70px 0;
     background: #efefef;
 }
 
-.guides{
+.guides {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +170,7 @@ nav ul li a{
     margin: auto;
 }
 
-.guide{
+.guide {
     flex-basis: 48%;
     text-align: center;
     border-radius: 7px;
@@ -179,23 +179,25 @@ nav ul li a{
     position: relative;
     overflow: hidden;
 }
-.guide img{
+
+.guide img {
     width: 100%;
     border-radius: 7px;
     transition: transform 0.3s ease;
 }
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5), #009688);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
     opacity: 0;
     transition: opacity 0.5s ease;
 }
-.guide::hover .overlay{
+
+.guide:hover .overlay {
     opacity: 1;
 }
