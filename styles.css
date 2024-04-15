@@ -130,6 +130,6 @@ nav ul li a{
     margin: auto;
     color: #009688;
     font-weight: bold;
-    positive: relative;
+    position: relative;
     display: inline-block;
 }
