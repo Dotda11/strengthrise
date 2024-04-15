@@ -141,10 +141,22 @@ nav ul li a{
 }
 
 .goals-list{
+    width: 80%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     text-align: center;
 }
 
 .goal-1{
     flex-basis: 50%;
+}
+.goal-1-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.goal-1-img img{
+    width: 70%;
+    border-radius: 10px;
 }
