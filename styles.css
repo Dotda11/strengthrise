@@ -117,18 +117,18 @@ nav ul li a{
         display: block;
         margin: 20px auto;
     }
-
-    #about-us{
-        margin-top: 0;
-    }
-    .about-us-text{
-        text-align: center;
-    }
-    .about-us-text h1{
-        margin: auto;
-        color: #009688;
-        font-weight: bold;
-        positive: relative;
-        display: inline-block;
-    }
 }
+    
+#about-us{
+    margin-top: 0;
+}
+.about-us-text{
+    text-align: center;
+}
+.about-us-text h1{
+    margin: auto;
+    color: #009688;
+    font-weight: bold;
+    positive: relative;
+    display: inline-block;
+    }
