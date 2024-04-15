@@ -206,6 +206,7 @@ nav ul li a{
     left: 50%;
     transform: translateX(-505);
     transition: 1s;
+    font-family: 'Poppins', sans-serif;
 }
 .guide-desc p{
     font-size: 14px;
