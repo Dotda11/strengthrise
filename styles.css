@@ -180,3 +180,7 @@ nav ul li a{
     color: #009688;
     border: 1px solid #009688;
 }
+.goal-1-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
