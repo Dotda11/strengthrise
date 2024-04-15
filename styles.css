@@ -204,7 +204,6 @@ nav ul li a{
     position: absolute;
     bottom: 40%;
     left: 50%;
-    opacity: 0;
     transform: translateX(-505);
     transition: 1s;
 }
