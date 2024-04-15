@@ -179,13 +179,11 @@ nav ul li a{
     position: relative;
     overflow: hidden;
 }
-
 .guide img {
     width: 100%;
     border-radius: 7px;
     transition: transform 0.3s ease;
 }
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -197,7 +195,29 @@ nav ul li a{
     opacity: 0;
     transition: opacity 0.5s ease;
 }
-
 .guide:hover .overlay {
     opacity: 1;
+}
+
+.guide-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-505);
+    transition: 1s;
+}
+.guide-desc p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 770px){
+    .guide{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .guide-desc p{
+        font-size: 12px;
+    }
 }
