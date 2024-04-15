@@ -34,7 +34,7 @@ body{
     padding-bottom: 20px;
     position: absolute;
     top: 180px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
 }
 .text h1{
