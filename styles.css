@@ -156,8 +156,24 @@ nav ul li a{
 /* Services */
 
 
-#services{
+#guides{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
+}
+
+.guides{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.guide{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
 }
