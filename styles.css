@@ -257,7 +257,7 @@ nav ul li a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-row h2{
+.footer-row h1, h2{
     margin: 10px 0;
 }
 .footer-left, .footer-right{
