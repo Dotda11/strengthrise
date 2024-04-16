@@ -204,7 +204,7 @@ nav ul li a{
     position: absolute;
     bottom: 40%;
     left: 50%;
-    transform: translateX(-505);
+    transform: translateX(-50%);
     transition: 1s;
     font-family: 'Poppins', sans-serif;
     text-align: center;
