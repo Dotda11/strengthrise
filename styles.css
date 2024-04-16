@@ -269,23 +269,23 @@ nav ul li a{
     text-align: right;
 }
 
-.socials{
+.socials {
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
-.socials .fa{
+
+.socials img {
     height: 40px;
     width: 40px;
-    font-size: 20px;
-    line-height: 40px;
-    border: 1px solid #ADD8E6;
     margin: 40px 5px 0;
-    color: #ADD8E6;
     cursor: pointer;
     transition: .5s;
 }
-.socials .fa:hover{
+
+.socials img:hover {
     background: #ADD8E6;
-    color: #fff;
     transform: translateY(-7px);
 }
 
