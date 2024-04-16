@@ -275,7 +275,7 @@ nav ul li a{
     bottom: 0;
     width: 100%;
 }
-.socials img{
+.socials .fa{
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -286,7 +286,7 @@ nav ul li a{
     cursor: pointer;
     transition: .5s;
 }
-.socials img:hover{
+.socials .fa:hover{
     background: #ADD8E6;
     color: #fff;
     transform: translateY(-7px);
