@@ -246,9 +246,11 @@ nav ul li a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-left,.foooter-right{
+.footer-left{
     flex-basis: 45%;
     padding: 10px;
     margin-bottom: 20px;
-    
+}
+.foooter-right{
+    text-align: right;
 }
