@@ -8,7 +8,7 @@ body{
 }
 
 .banner{
-    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(I3wz8sksSV6qyalFr__CDw.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),#ADD8E6),url(I3wz8sksSV6qyalFr__CDw.jpg);
     background-size: cover;
     background-position: center;
     height: 200vh;
@@ -83,7 +83,7 @@ body{
     position: fixed;
     right: -250px;
     top: 0;
-    background: #009688;
+    background: #ADD8E6;
     z-index: 3;
     transition: 0.5s;
 }
@@ -100,7 +100,7 @@ nav ul li a{
 #menuBtn{
     width: 50px;
     height: 50px;
-    background: #009688;
+    background: #ADD8E6;
     text-align: center;
     position: fixed;
     right: 50px;
@@ -138,7 +138,7 @@ nav ul li a{
 }
 .about-us-text h1{
     margin: auto;
-    color: #009688;
+    color: #ADD8E6;
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -202,7 +202,7 @@ nav ul li a{
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #ADD8E6);
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -243,6 +243,10 @@ nav ul li a{
     padding: 100px 0 20px;
     background: #efefef;
 }
+#footer p{
+    line-height: 35px;
+    text-decoration: none;
+}
 
 .footer-row{
     width: 80%;
@@ -254,10 +258,6 @@ nav ul li a{
 .footer-row h2{
     margin: 10px 0;
 }
-.footer-row p{
-    line-height: 35px;
-    text-decoration: none;
-}
 .footer-left, .footer-right{
     flex-basis: 45%;
     padding: 10px;
@@ -265,4 +265,18 @@ nav ul li a{
 }
 .foooter-right{
     text-align: right;
+}
+
+.socials{
+    text-align: center;
+}
+.socials .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #ADD8E6;
+    margin: 40px 5px 0;
+    color: #ADD8E6;
+    cursor: pointer;
 }
