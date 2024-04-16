@@ -276,21 +276,26 @@ nav ul li a{
     width: 100%;
 }
 
-.socials img {
+.socials .fa {
     height: 40px;
     width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #ADD8E6;
     margin: 40px 5px 0;
+    color: #ADD8E6;
     cursor: pointer;
     transition: .5s;
 }
 
-.socials img:hover {
+.socials .fa:hover {
     background: #ADD8E6;
+    color: #fff;
     transform: translateY(-7px);
 }
 
-@media screen and (max-width: 770px){
-    .footer-left, .footer-right{
+@media screen and (max-width: 770px) {
+    .footer-left, .footer-right {
         flex-basis: 100%;
         font-size: 14px;
     }
