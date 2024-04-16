@@ -260,7 +260,7 @@ nav ul li a{
 .footer-row h1, h2{
     margin: 10px 0;
 }
-.footer-left, .footer-right{
+.footer-left, .footer-right, .socials{
     flex-basis: 45%;
     padding: 10px;
     margin-bottom: 20px;
