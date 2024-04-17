@@ -278,22 +278,14 @@ nav ul li a{
 
 .socials {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
-
-.socials a {
-    display: inline-block; 
-}
-
 .socials img{
     height: 40px;
     width: 40px;
     font-size: 20px;
     line-height: 40px;
     border: 1px solid #ADD8E6;
-    margin: 5px; 
+    margin: 40px 5px 0; 
     color: #ADD8E6;
     cursor: pointer;
     transition: .5s;
@@ -303,6 +295,11 @@ nav ul li a{
     background: #ADD8E6;
     color: #fff;
     transform: translateY(-7px);
+}
+.socials p{
+    font-size: 12px;
+    margin: 20px;
+    
 }
 
 @media screen and (max-width: 770px) {
