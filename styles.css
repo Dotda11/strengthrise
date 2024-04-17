@@ -279,7 +279,12 @@ nav ul li a{
 .socials {
     text-align: center;
 }
-.socials .fab{
+
+.socials a {
+    margin: 0 5px; /
+}
+
+.socials a i {
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -291,15 +296,15 @@ nav ul li a{
     transition: .5s;
 }
 
-.socials .fab:hover {
+.socials a i:hover {
     background: #ADD8E6;
     color: #fff;
     transform: translateY(-7px);
 }
-.socials p{
+
+.socials p {
     font-size: 12px;
     margin: 20px;
-    
 }
 
 @media screen and (max-width: 770px) {
