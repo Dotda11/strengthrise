@@ -276,7 +276,7 @@ nav ul li a{
     width: 100%;
 }
 
-.socials .fab {
+.socials .fa-brands {
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -288,7 +288,7 @@ nav ul li a{
     transition: .5s;
 }
 
-.socials .fab:hover {
+.socials .fa-brands:hover {
     background: #ADD8E6;
     color: #fff;
     transform: translateY(-7px);
