@@ -279,7 +279,7 @@ nav ul li a{
 .socials {
     text-align: center;
 }
-.socials img{
+.socials .fab{
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -291,7 +291,7 @@ nav ul li a{
     transition: .5s;
 }
 
-.socials img:hover {
+.socials .fab:hover {
     background: #ADD8E6;
     color: #fff;
     transform: translateY(-7px);
