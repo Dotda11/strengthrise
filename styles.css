@@ -71,6 +71,7 @@ body{
     left: 0;
     background: #fff;
     z-index: 1;
+    color: #000;
     transition: 0.5s;
 }
 .btn a:hover span{
