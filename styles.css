@@ -328,12 +328,9 @@ nav ul li a{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.guide-text h1, h2 {
-    color: #007bff;
-}
-
 .guide-text p {
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .guide-text a {
