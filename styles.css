@@ -357,6 +357,10 @@ nav ul li a{
     margin-top: 20px;
 }
 
+#guide-text h3 {
+    font-size: 25px;
+}
+
 #guide-text br {
     margin-bottom: 20px;
 }
