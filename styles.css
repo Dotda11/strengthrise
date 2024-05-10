@@ -319,7 +319,7 @@ nav ul li a{
 
 /* Guide Text */
 
-.guide-text {
+#guide-text {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -328,44 +328,44 @@ nav ul li a{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.guide-text p {
+#guide-text p {
     margin-bottom: 15px;
     font-size: 25px;
 }
 
-.guide-text a {
+#guide-text a {
     color: #007bff;
     text-decoration: none;
 }
 
-.guide-text a:hover {
+#guide-text a:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 600px) {
-    .guide-text {
+    #guide-text {
         padding: 10px;
     }
 }
 
-.guide-text h1 {
+#guide-text h1 {
     font-size: 35px;
 }
 
-.guide-text h2 {
+#guide-text h2 {
     font-size: 30px;
     margin-top: 20px;
 }
 
-.guide-text ul, ol {
+#guide-text ul, ol {
     margin-bottom: 15px;
     padding-left: 20px;
 }
 
-.guide-text li {
+#guide-text li {
     margin-bottom: 5px;
 }
 
-guide-text br {
+#guide-text br {
     margin-bottom: 20px;
 }
