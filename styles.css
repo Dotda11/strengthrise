@@ -369,3 +369,33 @@ nav ul li a{
 #guide-text br {
     margin-bottom: 20px;
 }
+
+/* Newsletter */
+
+#newsletter {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#newsletter h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#newsletter p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#newsletter-subs
