@@ -404,6 +404,7 @@ nav ul li a{
     align-items: center;
 }
 
+#newsletter-signup input[type="name"],
 #newsletter-signup input[type="email"] {
     font-family: 'Poppins', sans-serif;
     padding: 15px;
