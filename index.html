@@ -103,7 +103,9 @@
     <div class="newsletter-container">
         <h2>Subscribe to our Newsletter</h2>
         <p>Get sent free fitness tips, special offers and more.</p>
-        <form id="newsletter-signup">
+        <form id="newsletter-signup" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="5b702729-568a-4c92-b7ca-03d9fcdc4deb">
+
             <input type="email" name="email" placeholder="Your Email Address" required>
             <button type="submit">Subscribe</button>
         </form>
