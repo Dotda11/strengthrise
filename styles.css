@@ -1,8 +1,101 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif; /* Temporary */
+    box-sizing: border-box; /* Temporary */
 }
 
+/* Temproray Section */
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.85),rgba(118,0,255,0.85)), url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    text-align: center;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.btn{
+    background: linear-gradient(#6a33ff, #351a80);
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content{
+    margin: 15% auto 0;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 400;
+}
+.content h1 span{
+    font-weight: 700;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 65px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+form input{
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+form .btn{
+    padding: 0;
+    width: 150px;
+    height: 65px;
+    border-radius: 31px;
+
+}
+form input::placeholder{
+    font-size: 16px;
+}
+
+.links{
+    margin-top: 14%;
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+}
+.links a .fa-brands{
+    height: 45px;
+    width: 30px;
+    color: #fff;
+}
+
+/* remove this when transformyourlifeco 2.0 comes out
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -128,7 +221,7 @@ nav ul li a{
 }
 
 
-/* About Us */
+About Us
 
 
 #about-us{
@@ -155,7 +248,7 @@ nav ul li a{
 }
 
 
-/* Guides */
+Guides
 
 
 #guides {
@@ -238,7 +331,7 @@ nav ul li a{
 }
 
 
-/* Footer */
+Footer
 
 
 #footer {
@@ -317,7 +410,7 @@ nav ul li a{
     }
 }
 
-/* Guide Text */
+Guide Text 
 
 #guide-text {
     max-width: 800px;
@@ -370,7 +463,7 @@ nav ul li a{
     margin-bottom: 20px;
 }
 
-/* Newsletter */
+Newsletter
 
 #newsletter {
     background-color: #f9f9f9;
@@ -431,3 +524,5 @@ nav ul li a{
 #newsletter-signup button:hover {
     background-color: #0056b3;
 }
+
+*/
