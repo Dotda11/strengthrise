@@ -1,11 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; /* Temporary */
-    box-sizing: border-box; /* Temporary */
 }
 
-/* Temproray Section */
+/* Temproray Section
 .hero{
     width: 100%;
     min-height: 100vh;
@@ -166,8 +164,8 @@ form input::placeholder{
         width: 30px;
     }
 }
+*/
 
-/* remove this when transformyourlifeco 2.0 comes out
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -597,4 +595,3 @@ Newsletter
     background-color: #0056b3;
 }
 
-*/
