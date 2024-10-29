@@ -3,118 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Transform Your Life</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
-    <link rel="icon" type="images/jpg" href="fw.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-QVYABaM4fECKXyvTUf6yvZOV3l91W5OaC5dp1gizqTRSTGGYXtj0eGfJFuc9A8SklJX4vg04Q4vbW8s4mVaj6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StrengthRise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="fc.png">
     <script src="https://kit.fontawesome.com/0918ea85bc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="banner">
-        <img src="logo (2).png" class="logo">
-        <div class="text">
-            <h1>StrengthRise</h1>
-            <p>Welcome to our official website. Here, you will learn how to self improve through fitness.</p>
-            <div class="btn">
-                <a href="#guides"><span></span>Get Started!</a>
-                <a href="https://transformyourlifeco.myshopify.com"><span></span>Store</a>
+    <section id="home">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="strengthrise-logo.png"></img>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            <ul>
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>BOOK</li></a>
+            </ul>
+            <button type="button" class="btn">SHOP</button>
+        </div>
+        <i class="fa-solid fa-list" onclick="showMenu()"></i>
+    </div>
+        <div class="banner-title">
+            <h1>In lifting we trust</h1>
+            <button type="button" class="btn">BOOK NOW</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-bar">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@strengthrise1">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com/@strengthrise">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/@strength.rise">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
         </div>
     </div>
+    </section>
 
-<div id="sideNav">
-    <nav>
-    <ul>
-        <br>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#about-us">ABOUT US</a></li>
-        <li><a href="#newsletter">NEWSLETTER</a></li>
-        <li><a href="#footer">CONTACT US</a></li>
-    </ul>
-    </nav>
-</div>
-<div id="menuBtn">
-    <img src="menu.png" id="menu">
-</div>
+    <section id="contact">
+        
+    </section>
 
-<section id="about-us">
-    <div class="about-us-text">
-        <h1>About Us</h1>
-        <p>We are a website dedicated towards helping gym and self improvement beginners. Join our discord server to begin.</p>
-        <br>
-    </div>
-</section>
-
-<br><br><br>
-
-<section id="newsletter">
-    <div class="newsletter-container">
-        <h2>Subscribe to our Newsletter</h2>
-        <p>Get sent free fitness tips, special offers and more.</p>
-        <form id="newsletter-signup" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="5b702729-568a-4c92-b7ca-03d9fcdc4deb">
-
-            <input type="email" name="email" placeholder="Your Email Address" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </div>
-</section>
-<br><br><br>
-<section id="footer">
-    <div class="footer-row">
-        <div class="footer-left">
-            <h2>Legal</h2>
-            <p><a href="https://www.transformyourlifeco.com/terms-of-service">Terms of Service</a></p>
-            <p><a href="https://www.transformyourlifeco.com/privacy-policy">Privacy Policy</a></p>
-        </div>
-        <div class="footer-right">
-            <h2>Contact Us</h2>
-            <p>transformyourlifeco@gmail.com</p>
-            <p>Email us for questions, feedback or if you would like to join the email newsletter.</p>
-        </div>
-    </div>
-    <div class="socials">
-        <a href="https://discord.gg/4fgJfKFrr4">
-            <i class="fa-brands fa-discord"></i>
-        </a>
-        <a href="https://www.youtube.com/@_transformyourlife">
-            <i class="fa-brands fa-youtube"></i>
-        </a>
-        <a href="https://www.tiktok.com/@strengthrise">
-            <i class="fa-brands fa-tiktok"></i>
-        </a>
-        <a href="https://www.instagram.com/transformyourlife4">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://twitter.com/TYLCo1">
-            <i class="fa-brands fa-x-twitter"></i>
-        </a>
-        <br><br><br>
-        ©2024 TransformYourLife. All rights reserved.
-    </div>
-</section>
-    
-<script>
-var menuBtn = document.getElementById("menuBtn")
-var sideNav = document.getElementById("sideNav")
-var menu = document.getElementById("menu")
-
-sideNav.style.right = "-250px";
-
-menuBtn.onclick = function(){
-  if(sideNav.style.right == "-250px"){
-    sideNav.style.right = "0";
-    menu.src = "close.png";
-  }
-  else{
-    sideNav.style.right = "-250px";
-    menu.src = "menu.png";
-  }
-}
-</script>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
+
+
 
